@@ -24,7 +24,7 @@ const Hero: FC = () => {
                 }>
             <span>View My Projects</span>
           </Button>
-          <Button variant="text" className="mx-10 mt-10">Let's Talk</Button>
+          <Button variant="text" className="mx-10">Let's Talk</Button>
           </div>
         </div>
         </div>
