@@ -32,7 +32,7 @@ const Header: FC = () => {
         <div className="flex justify-between h-20 items-center">
             <div>
               <a href="/">
-              <span className="text-xl font-bold uppercase">Manas&nbsp; &nbsp;Kolaskar</span>
+              <span className="text-xl font-bold uppercase">Manas&nbsp; Kolaskar</span>
               </a>
             </div>
             <div className="flex items-center gap-4">
