@@ -27,14 +27,21 @@ const navItems = [
 
 const Header: FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full backdrop-blur-md">
+    <header>
+      <div className="fixed top-0 left-0 w-full mix-blend-difference backdrop-blur-md ">
       <div className="container !max-w-full">
         <div className="flex justify-between h-20 items-center">
             <div>
               <a href="/">
-              <span className="text-xl font-bold uppercase">Manas&nbsp; Kolaskar</span>
+              <span className="text-xl font-bold uppercase text-white">Manas&nbsp; Kolaskar</span>
               </a>
             </div>
+            </div>
+            </div>
+      </div>
+      <div className="fixed top-0 left-0 w-full backdrop-blur-md ">
+      <div className="container !max-w-full">
+        <div className="flex justify-end h-20 items-center">
             <div className="flex items-center gap-4">
               <div className="size-11 border bg-stone-200 border-stone-400 rounded-full inline-flex items-center justify-center">
             <svg
@@ -54,6 +61,8 @@ const Header: FC = () => {
             </div>
         </div>
       </div>
+      </div>
+      
     </header>
   );
 };
